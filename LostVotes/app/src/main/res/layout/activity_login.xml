@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/aadhar"
+        android:hint="Enter Aadhar Number here"
+        android:focusable="true"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        android:maxLength="16"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get OTP"
+        android:layout_below="@+id/aadhar"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:id="@+id/otp_button"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/otp"
+        android:hint="Enter OTP"
+        android:focusable="true"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/otp_button"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@+id/otp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:id="@+id/submit"
+        />
+
+
+</RelativeLayout>
