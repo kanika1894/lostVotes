@@ -1,0 +1,15 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "It serves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ninad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
